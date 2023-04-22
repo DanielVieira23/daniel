@@ -14,81 +14,83 @@
     <!-- Inicio Menu Responsivo -->
         <header id="header">
             <a id="logo" href="index.html"><img src="./img/planet.png" alt=""></a>
-
-
+            <nav id="nav">
+                <button aria-label="abrir Menu" id="btn-mobile"aria-hapopup="true" aria-controls="menu" aria-expanded="false">
+                    <span id="hamburguer"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a class="linkMenu"href="index.html">home</a></li>
+                    <li><a class="linkMenu"href="index.html">planetas</a></li>
+                    <li><a class="linkMenu"href="index.html">informaçoes</a></li>
+                    <li><a class="linkMenu"href="index.html">credito</a></li>
+                </ul>
+            </nav>               
         </header>
     <!-- Fim menu responsivo-->
 
     <!--Inicio carousel pagina principal-->
-    <div  id="carouselExempleInterval"  class="carousel slide"data-mdb-ride="carousel">
+    <div  id="carouselExampleInterval"  class="carousel slide"data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div  class="carousel-item active" data-mdb-interval="100">
+            <div  class="carousel-item active" data-bs-interval="1000">
                 <img
-                src="./img/carrousel_5.jpg"
+                src="./img/carousel_01.jpg"
                 class="d-block w-100"
                 alt="..."
                 />
             </div>
-            <div  class="carousel-item" data-mdb-interval="100">
+            <div  class="carousel-item" data-bs-interval="1200">
                 <img
-                src="./img/carroulsel_02.jpg"
+                src="./img/carousel_02.jpg"
                 class="d-block w-100"
                 alt="..."
                 />
             </div>
-            <div  class="carousel-item" data-mdb-interval="100">
+            <div  class="carousel-item" data-bs-interval="1200">
                 <img 
-                src="./img/carroulsel_03.jpg"
+                src="./img/carousel_03.jpg"
                 class="d-block w-100"
                 alt="..."
                 />
             </div>
-            <div  class="carousel-item" data-mdb-interval="100">
+            <div  class="carousel-item" data-bs-interval="1200">
                 <img 
-                src="./img/carroulsel_04.jpg"
+                src="./img/carousel_04.jpg"
                 class="d-block w-100"
                 alt="..."
                 />
             </div>
-            <div  class="carousel-item" data-mdb-interval="100">
+            <div  class="carousel-item" data-bs-interval="1200">
                 <img 
-                src="./img/carroulsel_01.jpg"
-                class="d-block w-100"
-                alt="..."
-                />
-            </div>
-            <div  class="carousel-item" data-mdb-interval="100">
-                <img 
-                src="./img/caroulsel_06.html"
+                src="./img/carousel_5.jpg"
                 class="d-block w-100"
                 alt="..."
                 />
             </div>
         </div>
-            <!-- alt + shift + seta para baixo, copia conteudo -->
-            <!-- inici controle carousel -->
+        <!-- Alt + Shift + Seta para baixo, copia contéudo -->
+            <!-- Início controle carousel -->
             <button
-               class="caroulsel-control-prev"
-               data-mdb-target="caroulselExampleInterval"
-               type="button"
-               dara-mdb-slide="prev"
+                class="carousel-control-prev"
+                data-bs-target="#carouselExampleInterval"
+                type="button"
+                data-bs-slide="prev"
             >
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="vissualy hidden">previous</span>
+                <span class="visually-hidden">Previous</span>                
             </button>
             <button
-               class="caroulsel-control-next"
-               data-mdb-target="caroulselExampleInterval"
-               type="button"
-               dara-mdb-slide="next"
+                class="carousel-control-next"
+                data-bs-target="#carouselExampleInterval"
+                type="button"
+                data-bs-slide="next"
             >
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="vissualy hidden">next</span>
+                <span class="visually-hidden">Next</span>                
             </button>
-    </div>
+    </div>    
 </body>
 
-<script type="text/javascript" src="./bootstrap/js/bootscrap.min.js">
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js">
 
 </script>
 
