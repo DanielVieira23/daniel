@@ -115,21 +115,21 @@ body, ul {
         gap: 0.5rem;
     }
     #hamburger {
-        border-top: 3px solid; /* Melhorando o hamburger >> Espressura de cada linha */
-        width: 25px; /* Melhorando o hamburger >> Largura */
+        border-top: 2px solid; /* Melhorando o hamburger >> Espressura de cada linha */
+        width: 35px; /* Melhorando o hamburger >> Largura */
         color: #000000; /* Alterando a cor do hamburger */
     }
     #hamburger::after ,
     #hamburger::before {
         content: '';
         display: block; 
-        width: 25px; /* Melhorando o hamburger >> largura */
+        width: 35px; /* Melhorando o hamburger >> largura */
         height: 2px;
         background: currentColor;
-        margin-top: 4px; /* Melhorando o hamburger >> Espaçamento entre o hamburger*/
+        margin-top: 5px; /* Melhorando o hamburger >> Espaçamento entre o hamburger*/
         transition: 0.4s;
         position: relative;
-        border-top: 3px solid; /* Melhorando o hamburger >> Espressura de cada linha */;
+        border-top: 2px solid; /* Melhorando o hamburger >> Espressura de cada linha */;
     }
     #nav.active #hamburger {
         border-top-color: transparent;
@@ -254,7 +254,7 @@ body, ul {
     width: 50%;
     margin: 14px auto 50px;
 }
-.galeria .gallery{
+.galeria .gallery {
     width: 30%;
     margin: 14px auto 50px;
 }
@@ -264,6 +264,17 @@ body, ul {
 
 .rodape {
     padding: 50px 50px 0;
+}
+.rodape .container #logo-rodape img {
+    height: 50%;
+    width: 50%;
+    padding-left: 10px;
+    transition: transform .3s;
+    display: block;
+}
+.rodape .container #logo-rodape img:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .rodape .info-contato p {
     margin: 0px;
@@ -282,8 +293,61 @@ body, ul {
 .rodape .redes-sociais img {
     width: 45px;
     height: 40px;
+    padding-left: 0;
+    margin-left: 0.5rem;
+    transition: transform .3s;
+    border-radius: 120px;  /*Arredondando div do objeto redes sociais */
+}
+.rodape .redes-sociais img:hover {
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .rodape p.direitos {
     text-align: center;
     margin-top: 40px;
 }
+/* Inicio CSS Streaming */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 0;
+    height: auto;
+    max-height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+}
+.embed-container h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.embed-container p {
+text-align: center;
+font-size: 20px;
+}
+.embed-container iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    border-radius: 1rem;
+    box-shadow: gray 0.5em 0.5em 0.3em;
+    transition: transform .3s;
+    display: flex;
+}
+.embed-container iframe:hover{
+    flex: 1;
+    z-index: 1;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.446);
+}
+.embed-container .col-lg-4{
+    margin-top: 20px;
+}
+
+/* Fim CSS Streaming */
