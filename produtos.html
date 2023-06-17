@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/modules/85b79756f860ab538a160dcb796b4d4a.min.css">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -19,98 +21,192 @@
                     <span id="hamburger"></span>
                 </button>
                 <ul id="menu" role="menu">
-                    <li><a class="linkMenu"href="index.html">Home</a></li>
-                    <li><a class="linkMenu"href="index.html">Produtos</a></li>
-                    <li><a class="linkMenu"href="index.html">#Streaming</a></li>
-                    <li><a class="linkMenu"href="index.html">Contatos</a></li>
+                    <li><a class="linkMenu"href="./index.html">Home</a></li>
+                    <li><a class="linkMenu"href="./produtos.html">Produtos</a></li>
+                    <li><a class="linkMenu"href="./streaming.html">#Streaming</a></li>
+                    <li><a class="linkMenu"href="./contatos.html">Contatos</a></li>
                 </ul>
             </nav>               
         </header>
     <!-- Fim menu responsivo-->
-
-    <!--Inicio carousel pagina principal-->
-    <div  id="carouselExampleInterval"  class="carousel slide"data-bs-ride="carousel" data-bs-pause="false">
-        <div class="carousel-inner">
-            <div  class="carousel-item active" data-bs-interval="1800">
-                <img
-                src="./img/carousel_01.jpg"
-                class="d-block w-100"
-                alt="..."
-                />
+    <!-- Inicio galerry Produtos -->
+    <section class="text-center">
+        <h4 class="md-5"><strong>Conheça nossos produtos</strong></h4>
+        <div class="row">
+            <!-- Inicio Card Produto 1 -->
+            <div class="col-lg-4 col-md-12 md-4">
+                <div class="card">
+                    <div class="bd-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./img/produto 1" class="img-fluid">
+                        <a href="#">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>                         
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>                 
             </div>
-            <div  class="carousel-item" data-bs-interval="1500">
-                <img
-                src="./img/carousel_02-novo.jpg"
-                class="d-block w-100"
-                alt="..."
-                />
+            <!-- Fim Card Produto 1 -->
+            <!-- Inicio Card Produto 2 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                    <div class="bd-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./img/produto 2" class="img-fluid">
+                        <a href="#">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>                         
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 2</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>                 
             </div>
-            <div  class="carousel-item" data-bs-interval="1500">
-                <img 
-                src="./img/carousel_03.jpg"
-                class="d-block w-100"
-                alt="..."
-                />
+            <!-- Fim Card Produto 2 -->
+            <!-- Inicio Card Produto 3 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                    <div class="bd-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./img/produto 3.jpg" class="img-fluid">
+                        <a href="#">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>                         
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>                 
             </div>
-            <div  class="carousel-item" data-bs-interval="1500">
-                <img 
-                src="./img/carousel_04.jpg"
-                class="d-block w-100"
-                alt="..."
-                />
+            <!-- Fim Card Produto 3 -->
+            <!-- Inicio Card Produto 4 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                    <div class="bd-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./img/produto 3.jpg" class="img-fluid">
+                        <a href="#">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>                         
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>                 
             </div>
-            <div  class="carousel-item" data-bs-interval="1500">
-                <img 
-                src="./img/carousel_05.jpg"
-                class="d-block w-100"
-                alt="..."
-                />
+            <!-- Fim Card Produto 4 -->
+            <!-- Inicio Card Produto 5 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                    <div class="bd-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./img/produto 3.jpg" class="img-fluid">
+                        <a href="#">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>                         
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>                 
             </div>
+            <!-- Fim Card Produto 5 -->
+            <!-- Inicio Card Produto 6 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                    <div class="bd-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./img/produto 3.jpg" class="img-fluid">
+                        <a href="#">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>                         
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>                 
+            </div>
+            <!-- Fim Card Produto 6 -->
+            <!-- Inicio Card Produto 7 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                    <div class="bd-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./img/produto 3.jpg" class="img-fluid">
+                        <a href="#">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>                         
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>                 
+            </div>
+            <!-- Fim Card Produto 7 -->
+            <!-- Inicio Card Produto 8 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                    <div class="bd-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./img/produto 3.jpg" class="img-fluid">
+                        <a href="#">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>                         
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>                 
+            </div>
+            <!-- Fim Card Produto 8 -->
+            <!-- Inicio Card Produto 9 -->
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div class="card">
+                    <div class="bd-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img src="./img/produto 3.jpg" class="img-fluid">
+                        <a href="#">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                        </a>                         
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>                 
+            </div>
+            <!-- Fim Card Produto 9 -->
         </div>
-        <!-- Alt + Shift + Seta para baixo, copia contéudo -->
-        <!-- Alt + Shift >> Seleconando diversas e alterando o mesmo valor de forma simultanea -->
-            <!-- Início controle carousel -->
-            <button
-                class="carousel-control-prev"
-                data-bs-target="#carouselExampleInterval"
-                type="button"
-                data-bs-slide="prev"
-            >
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>                
-            </button>
-            <button
-                class="carousel-control-next"
-                data-bs-target="#carouselExampleInterval"
-                type="button"
-                data-bs-slide="next"
-            >
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>                
-            </button>
-    </div>    
-    <!-- Fim controle caroulsel -->
-    <!-- Fim caroulsel pagina principal -->
-    <!-- inicio banner -->
-    <div class="section-banner-home">
-        <div class="container-fluid">
-            <div class="row m-0">
-                <div class="col-12 col-md-6">
-                    <figure>
-                        <img src="./img/banner.jpg" class=" img-fluid" alt=" banner-home">
-                    </figure>
-                </div>
-                <div class="col-12 col-md-6">
-                    <section class="texto-banner d-none d-md-block">
-                        <h1>Conheça varios os planetas jogando esse jogo!</h1>
-                        <p class="d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, accusamus illum doloribus porro veniam dolor ipsum consectetur quia similique aliquam animi iste eos adipisci! Necessitatibus tempora dolorum nemo accusantium dolorem.</p>
-                        <a href="produtos.html">Saiba Mais</a>
-                    </section>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fim banner -->
+    </section>
+    <!-- Fim card Produtos -->
     <!-- Inicio Destaque -->
 <div class="destaque">
     <div class="container">
@@ -282,6 +378,16 @@
     </div>
 </div>
 <!-- Fim da galeria -->
+
+    <!-- Inicio Whatsapp -->
+    <div class="Whatsapp">
+        <div class="container-grid logo-whats">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5511963579640&text=ol%C3%A1,%20estava%20no%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es"><img class="quica" src="./img/redes_sociais/whats.png" alt="contato Whatsapp"></a>
+        </div>
+
+    </div>
+    <!-- Fim Whatsapp -->
+
 <!-- Inicio footer -->
 <footer class="rodape">
     <div class="container">
@@ -310,16 +416,16 @@
             <!-- Ctrl + space > Mostra o caminho do objeto dentro de SRC -->
             <div class="col-md-4">
                 <figure class="redes-sociais">
-                    <a href="#"><img src="img/face.png " alt="Facebook"></a>
-                    <a href="#"><img src="img/insta.png " alt="Instragam"></a>
-                    <a href="#"><img src="img/youtube.png " alt="Youtube"></a>
-                    <a href="#"><img src="img/linkedin.png " alt="Limkedin"></a>
+                    <a href="#"><img src="./img/face.png " alt="Facebook"></a>
+                    <a href="#"><img src="./img/insta.png " alt="Instragam"></a>
+                    <a href="#"><img src="./img/youtube.png " alt="Youtube"></a>
+                    <a href="#"><img src="./img/linkedin.png " alt="Limkedin"></a>
                 </figure>
                 <br>
-                <a href="index.html">Home</a>
-                <a href="index.html">Produtos</a>
-                <a href="index.html">#Streaming</a>
-                <a href="index.html">Contatos</a>
+                <a href="./index.html">Home</a>
+                <a href="./produtos.html">Produtos</a>
+                <a href="./streaming.html">#Streaming</a>
+                <a href="./contatos.html">Contatos</a>
             </div>
             <!-- Fim Midias Sociais -->]
             <!-- Inicio Direitos Autorais -->
